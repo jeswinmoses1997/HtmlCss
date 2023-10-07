@@ -1,0 +1,290 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE SECTIONS */
+
+Body {
+  color: #444444;
+  font-size: 14px;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+  /* margin: 0; " This is not a text command so this won't be applied on everything. " */
+  position: relative;
+}
+
+/* 
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+} */
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin: 60px;
+  /* height: 80px; */
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0px;
+  width: 500px;
+}
+
+/* SMALLER ELEMENTS */
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  /* display: inline; */
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+/* 
+footer p {
+  font-size: 16px;
+} */
+
+/*
+article header p {
+  font-style: italic;
+}
+*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+/* 
+body {
+   background-color: aliceblue; 
+} */
+
+/* 
+.first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+/* 
+li:nth-child(even) {
+ color: red; 
+} */
+
+/* this code won't work */
+article p:first-child {
+  color: red;
+}
+
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline wavy red;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
+
+/* Resolving conflicts */
+/* 
+#copyright {
+  color: red;
+}
+
+.text {
+  color: yellow;
+}
+
+.copyright {
+  color: green;
+}
+
+footer p {
+  color: blue !important;
+} */
+/* 
+nav a:link a.p {
+  font-size: 18px;
+} */
+
+.post-image {
+  width: 100%;
+  height: auto;
+  /* margin: 100px; */
+}
+
+nav a:link {
+  /* background-color: orange;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  /* opacity: 0.9; */
+}
+
+button:hover {
+  /* darken($colour, 10%); */
+  opacity: 0.9;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  /* color: red; */
+}
+h2 {
+  /* background-color: red; */
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffe70c;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  text-align: center;
+}
