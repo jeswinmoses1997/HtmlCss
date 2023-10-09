@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.box {
+  padding: 100px;
+  opacity: 0.5;
+}
+
+.box:hover {
+  opacity: 1;
+  transition: 1ms;
+}
