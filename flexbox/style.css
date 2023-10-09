@@ -14,3 +14,15 @@
   opacity: 1;
   transition: 1ms;
 }
+
+.box:nth-child(2) {
+  align-self: center;
+}
+
+.box:nth-child(3) {
+  align-self: center;
+}
+
+.box:nth-child(6) {
+  align-self: center;
+}
