@@ -388,6 +388,8 @@ footer {
   font-style: italic;
 }
 
+/* FLEXBOX LAYOUT */
+/* 
 .row {
   display: flex;
   gap: 75px;
@@ -396,9 +398,9 @@ footer {
 }
 
 aside {
-  /* flex-grow: 0;
+  flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: auto; */
+  flex-basis: auto; 
   flex: 0 0 300px;
 }
 
@@ -406,3 +408,6 @@ article {
   flex: 0 0 825px;
   margin-bottom: 0;
 }
+*/
+
+/* CSS GRID LAYOUT */
