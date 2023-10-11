@@ -16,7 +16,9 @@ body {
 487 / 2 = 243px width */
 
 .product-info {
-  flex: 1;
+  grid-column: 2/3;
+
+  /* flex: 1; */
   margin-top: 20px;
   /* margin-left: 40px; */
   /* width: 243px; */
@@ -24,7 +26,8 @@ body {
 }
 
 .product-detail {
-  flex: 1;
+  grid-column: 3/4;
+  /* flex: 1; */
   margin-top: 20px;
   /* margin-left: 40px; */
   /* width: 243px; */
@@ -38,12 +41,17 @@ body {
 } */
 
 .container {
-  display: flex;
+  column-gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* display: flex; */
   /* background-color: red; */
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .product-img {
+  display: grid;
+
   /* float: left; */
   /* margin-right: 40px; */
 }
