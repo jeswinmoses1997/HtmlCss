@@ -33,7 +33,7 @@ li {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* margin: 60px; */
   /* height: 80px; */
 }
@@ -48,10 +48,10 @@ nav {
   font-size: 18px;
   text-align: center;
 }
-
+/* 
 article {
   margin-bottom: 60px;
-}
+} */
 
 .post-header {
   margin-bottom: 40px;
@@ -411,3 +411,25 @@ article {
 */
 
 /* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / 3;
+}
+
+article {
+}
+
+aside {
+}
+
+footer {
+  /* background-color: red; */
+  grid-column: 1/ -1;
+}
